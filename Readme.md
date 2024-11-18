@@ -14,4 +14,4 @@ kubectl apply -f deployment.yaml
 
 <b>For creating deployment key use below command</b>
 
-kubectl create secret docker-registry dockerhubcred --docker-server=https://index.docker.io/v1/ --docker-username=manojfst88 --docker-password=<token from docker hub> --docker-email=manojfst88@gmail.com
+kubectl create secret docker-registry <registry-key-name> --docker-server=https://index.docker.io/v1/ --docker-username=<username> --docker-password=<token from docker hub> --docker-email=<docker_registered_email>
